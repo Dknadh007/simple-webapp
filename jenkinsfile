@@ -41,7 +41,7 @@ pipeline {
 
         stage('Post-Deployment') {
             steps {
-                echo "Deployment complete. You can access the app at http://<server-ip>:8080/simple-webapp/"
+                echo "Deployment complete. You can access the app at http://<server-ip>:8081/simple-webapp/"
             }
         }
     }
